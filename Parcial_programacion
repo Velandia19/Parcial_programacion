@@ -1,0 +1,53 @@
+import numpy as np
+import math
+
+
+
+limite_1="Ingrese el límite inferior del intervalo : "
+limite_2="Ingrese el límite superior del intervalo : "
+intervalos="Ingrese el numero impar de intervalos: "
+respuesta_1="introduzca un numero que sea impar:"
+respuesta_2= "es impar, n="
+respuesta_3="La aproximacion a la integral es: "
+respuesta_4="n sub-intervalos:"
+respuesta_5="lista impar de x_i:"
+respuesta_6="Lista par de x_i:"
+respuesta="Funcion a evaluar"
+
+#f= lambda x: math.sqrt(1+x**2)
+f= lambda x: x
+print(f)
+a = eval(input(limite_1))
+b = eval(input(limite_2))
+n = eval(input(intervalos))
+suma = f(a)
+n_1=(n-1)
+h= (b-a)/n_1
+N=1
+x_1=a+(n*h)
+while n%2==0:
+    impar=eval(input(respuesta_1))
+    if (impar%2!=0):
+        break
+    print(impar)
+    
+lista_impar=[]
+for i in range(N):
+    lista_impar.append(a+(n-2)*h)
+print(lista_impar)
+
+lista_par=[]
+for i in range(N):
+    lista_par.append(a+(n-1)*h)
+print(lista_par)
+
+
+suma_1=sum(map(int, lista_impar))
+suma_2=sum(map(int, lista_par))
+print(respuesta_5,suma_1)
+print(respuesta_6, suma_2)
+
+integral= (h/3)*(f(a)+4*suma_1+2*suma_2+f(b))
+
+print(respuesta_4, n)
+print(respuesta_3, integral)
