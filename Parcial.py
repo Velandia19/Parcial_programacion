@@ -8,9 +8,7 @@ respuesta_1="introduzca un numero que sea impar:"
 respuesta_2= "es impar, n="
 respuesta_3="La aproximacion a la integral es: "
 respuesta_4="n sub-intervalos:"
-respuesta_5="lista impar de x_i:"
-respuesta_6="Lista par de x_i:"
-respuesta="Funcion a evaluar"
+
 
 f= lambda x: math.sqrt(1+x**2)
 
