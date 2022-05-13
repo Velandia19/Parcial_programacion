@@ -1,3 +1,6 @@
+
+import numpy as np
+import math
 limite_1="Ingrese el límite inferior del intervalo : "
 limite_2="Ingrese el límite superior del intervalo : "
 intervalos="Ingrese el numero impar de intervalos: "
