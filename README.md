@@ -12,3 +12,4 @@ Luego se utilizo un for i in range(0, n-2,2), esto es para que crear un generado
 Donde el rango es porque la sumatoria es de cada segmento pero cada dos tramos, como se explico anteriormente verificando que sean pares y que cada segmento tiene dos tramos.
 Luego se realizo la suma del ultimo segmento, para asi multiplicar todo eso por (h/3), esto por definicion de la regla de simpson.
 Luego se imprime el numero de n usados y el resultado de la integral evaluada en esos limites, donde se observa que entre mayor sea el valor de n, mayor sera la aproximacion.
+
