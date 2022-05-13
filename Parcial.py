@@ -22,8 +22,6 @@ n = eval(input(intervalos))
 suma = f(a)
 n_1=(n-1)
 h= (b-a)/n_1
-N=1
-x_1=a+(n*h)
 while n%2==0:
     impar=eval(input(respuesta_1))
     if (impar%2!=0):
