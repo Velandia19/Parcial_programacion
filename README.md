@@ -1,5 +1,5 @@
 # Parcial_programacion
-Documentos del Parcial.py de programacion
+Documentos del Parcial.py de programacion donde se realizo un programa que evaluara una integral definida de una funcion cualquiera, en este caso es la funcion raiz(1+x^2) pero con la sumatoria de sus segmentos y tramos, en conclusion por la regla de Simpson.
 Primero se realizo el llamado de la libreria numpy y se le dio un nombre "np", tambien la libreria math.
 Se le asignaron variables a todas las preguntas y respuestas que se le iban a dar al usuario.
 Se asigno una variable a la funcion, donde se escribio con el comando de lambda y math, luego se le preguntara al usuario los limites de la integral.
