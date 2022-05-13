@@ -27,7 +27,7 @@ while n%2==0:
     print(impar)
     
 xi = a
-for i in range(0,n-2,2):
+for i in range(0,n_1-2,2):
     xi = xi + h
     suma = suma + 4*f(xi)
     xi = xi + h
